@@ -1,0 +1,20 @@
+.chat-carte {
+    background-color: springgreen;
+    width: fit-content;
+    margin: 10px;
+}
+
+.chat-header {
+    background-color: tomato;
+    padding: 5px;
+    text-align: center;
+}
+
+.chat-body {
+    padding: 10px;
+}
+
+.chat-liste {
+    display: flex;
+    flex-wrap: wrap;
+}

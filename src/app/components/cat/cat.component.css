@@ -1,0 +1,52 @@
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: fit-content;
+    border-style: solid;
+    border-radius: 5px;
+    border: solid 1px;
+    margin: 10px;
+}
+
+.cat-head {
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.cat-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.cat-body input {
+    width: 8em;
+}
+
+.cat-body button {
+    background-color: red;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+.cat-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat-item p{
+    margin: 0px;
+}

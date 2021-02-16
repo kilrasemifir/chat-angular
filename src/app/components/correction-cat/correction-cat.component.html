@@ -1,0 +1,14 @@
+<div class="chat-liste">
+    <div class="chat-carte" *ngFor="let chat of chats">
+        <div class="chat-header">
+            <p>{{chat.nom}}</p>
+        </div>
+        <div class="chat-body">
+            <p>Nom: <input [(ngModel)]="chat.nom"></p>
+            <p>Couleur: {{chat.couleur}}</p>
+            <p>Age: {{chat.age}}</p>
+            <button (click)="onAction(chat)">Action</button>
+        </div>
+    </div>
+</div>
+

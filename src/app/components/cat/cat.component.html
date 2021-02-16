@@ -1,0 +1,19 @@
+<div class="cats">
+    <div *ngFor="let chat of chats" class="cat-card">
+        <div class="cat-head" [ngStyle]="getStyle(chat)">
+            <p>Nom: {{chat.nom}}</p>
+        </div>
+        <div class="cat-body">
+            <div class="cat-img">
+                <img [src]="chat.imgUrl" width="200">
+            </div>
+            <div class="cat-item">
+                Nom du chat:
+                <input [(ngModel)]="chat.nom">
+            </div>
+            <span>Couleur :{{chat.couleur}}</span>
+            <span>age :{{chat.age}}</span>
+            <button (click)="onAction(chat)" [ngStyle]="buttonRainbow"> Action</button>
+        </div>
+    </div>
+</div>

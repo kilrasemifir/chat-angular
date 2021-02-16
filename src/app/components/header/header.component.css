@@ -1,0 +1,9 @@
+.header {
+    background: rgba(181, 181, 241, 0.401);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item {
+    padding: 10px;
+}
